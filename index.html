@@ -6,16 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="script.js"></script>
-
     <style>
+        body {
+            background-color: rgb(90, 102, 240);
+            color: whitesmoke;
+        }
         button {
             border: solid rgb(200, 200, 200) 1px;
             margin: 5px;
-            padding: 15px;
+            padding: 10px;
             color: #444;
             background-color: deepskyblue;
+            border-radius: 5px;
+        }
+        h1 {
+            text-align: center;
         }
     </style>
 </head>
@@ -24,5 +29,8 @@
     <p>Contador de alumnos: <span id="counter">0</span></p>
 
     <button id="btnIniciar">Iniciar</button>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
